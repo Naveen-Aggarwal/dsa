@@ -1,5 +1,5 @@
 
-> 1st method A Binomial coefficient based function to find nth catalan number in O(n) time 
+> 1st method : A Binomial coefficient based function to find nth catalan number in O(n) time 
 ```
 unsigned long int catalan(unsigned int n) 
 { 
@@ -12,7 +12,8 @@ unsigned long int catalan(unsigned int n)
 ```
 Defination of [binomialCoeff( )](   https://github.com/Naveen-Aggarwal/dsa/blob/7606572b4509d22077010b4283508b16f006c4b5/Binomial-Cofficient-nCr.cpp)
 
-> 2-method
+> 2-method : used boost multi-precision library
+<!-- the motive behind its use is just only to have precision meanwhile finding the large CATALAN%u2019s number and a generalized technique using for loop to calculate Catalan numbers .  -->
 ```
 /*
 For example: N = 5
